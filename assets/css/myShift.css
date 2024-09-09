@@ -1,0 +1,68 @@
+.my-job-section .grid--2-cols {
+  grid-template-columns: 1fr auto;
+}
+.my-job-section .grid-gap {
+  row-gap: 2.5rem;
+  column-gap: 3rem;
+}
+.my-job-section .shifts-jobs-tabs {
+  grid-column: 1 / -1;
+}
+
+.my-job-section .job-detail-header {
+  margin-bottom: 25px;
+}
+.my-job-section .job-detail-header .job-info {
+  align-self: flex-start;
+}
+.my-job-section .job-detail-header .job-info .badge {
+  margin-left: auto;
+  align-self: flex-start;
+}
+.my-job-section .job-detail-desc {
+  font-family: "Inter";
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.my-job-section .link--collapseable {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+.my-job-section .job-detail-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.my-job-section .job-detail-actions .time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.my-job-section .job-detail-actions .time span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+}
+.my-job-section .collapasable-content-box {
+  padding-top: 15px;
+  border-top: 1px solid #cacaca;
+}
+.my-job-section .collapasable-content-box .heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #18191c;
+  margin-bottom: 0.5rem;
+}
+.my-job-section .collapasable-content-box .para,
+.my-job-section .collapasable-content-box ul {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #5e6670;
+  margin-bottom: 2rem;
+}

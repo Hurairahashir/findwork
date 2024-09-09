@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="main-navbar">
+      <div class="container flex align-items-center justify-content-end">
+        <div class="header-logo">Findworks</div>
+        <div class="d-flex">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Platform</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Workers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Company</a>
+            </li>
+          </ul>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid hero-fluid-container">
+      <div class="hero-bg-overlay"></div>
+      <section class="container section section-hero">
+        <div class="hero-content">
+          <div>
+            <h1 class="main-hero-title">Transforming Your Work Experience</h1>
+            <p class="hero-desc">
+              Lorem ipsum dolor sit amet consectetur. Dolor ut cum sed eu duis
+              praesent. Ut malesuada morbi netus hac. Quam massa amet malesuada
+              eros sit tincidunt.
+            </p>
+            <div class="btns-container">
+              <button class="btn btn-primary">I`ve Business</button>
+              <button class="btn btn-outline-primary">I`m Worker</button>
+            </div>
+          </div>
+          <div class="applications-logo-container">
+            <img src="assets/images/coinbase.svg" alt="" />
+            <img src="assets/images/spotify.svg" alt="" />
+            <img src="assets/images/slack.png" alt="" />
+            <img src="assets/images/dropbox.png" alt="" />
+          </div>
+        </div>
+        <div class="hero-images">
+          <img
+            class="hero-image1"
+            src="assets/images/hero-image1.jpeg"
+            alt=""
+          />
+          <img
+            class="hero-image2"
+            src="assets/images/hero-image2.jpeg"
+            alt=""
+          />
+          <img
+            class="hero-image3"
+            src="assets/images/hero-image3.jpeg"
+            alt=""
+          />
+        </div>
+      </section>
+    </div>
+    <div class="container-fluid">
+      <section class="container section-shifts">
+        <header class="section--shifts-header">
+          <h2 class="section-title">Recent Shifts</h2>
+          <button class="btn btn--gray-border">View All &rarr;</button>
+        </header>
+        <div class="grid grid--3-cols grid-gap mt-5">
+          <div class="card card-shift">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Nurse</h5>
+              <span class="badge--green mb-3">$15 Per Hour </span>
+              <p class="shift-dateTime">March 10, 2024 10:00 Am - 2:00 PM</p>
+            </div>
+            <div class="card-footer">
+              <div class="company">
+                <span class="company-logo"></span>
+                <div class="company-info">
+                  <p class="company-name">Company Name</p>
+                  <div class="company-location">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-geo-alt"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                      />
+                      <path
+                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      />
+                    </svg>
+                    <span class="company-location">Ontario, Canada</span>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card card-shift">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Nurse</h5>
+              <span class="badge--green mb-3">$15 Per Hour </span>
+              <p class="shift-dateTime">March 10, 2024 10:00 Am - 2:00 PM</p>
+            </div>
+            <div class="card-footer">
+              <div class="company">
+                <span class="company-logo"></span>
+                <div class="company-info">
+                  <p class="company-name">Company Name</p>
+                  <div class="company-location">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-geo-alt"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                      />
+                      <path
+                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      />
+                    </svg>
+                    <span class="company-location">Ontario, Canada</span>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card card-shift">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Nurse</h5>
+              <span class="badge--green mb-3">$15 Per Hour </span>
+              <p class="shift-dateTime">March 10, 2024 10:00 Am - 2:00 PM</p>
+            </div>
+            <div class="card-footer">
+              <div class="company">
+                <span class="company-logo"></span>
+                <div class="company-info">
+                  <p class="company-name">Company Name</p>
+                  <div class="company-location">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-geo-alt"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                      />
+                      <path
+                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      />
+                    </svg>
+                    <span class="company-location">Ontario, Canada</span>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card card-shift">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Nurse</h5>
+              <span class="badge--green mb-3">$15 Per Hour </span>
+              <p class="shift-dateTime">March 10, 2024 10:00 Am - 2:00 PM</p>
+            </div>
+            <div class="card-footer">
+              <div class="company">
+                <span class="company-logo"></span>
+                <div class="company-info">
+                  <p class="company-name">Company Name</p>
+                  <div class="company-location">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-geo-alt"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                      />
+                      <path
+                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      />
+                    </svg>
+                    <span class="company-location">Ontario, Canada</span>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card card-shift">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Nurse</h5>
+              <span class="badge--green mb-3">$15 Per Hour </span>
+              <p class="shift-dateTime">March 10, 2024 10:00 Am - 2:00 PM</p>
+            </div>
+            <div class="card-footer">
+              <div class="company">
+                <span class="company-logo"></span>
+                <div class="company-info">
+                  <p class="company-name">Company Name</p>
+                  <div class="company-location">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-geo-alt"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                      />
+                      <path
+                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      />
+                    </svg>
+                    <span class="company-location">Ontario, Canada</span>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card card-shift">
+            <div class="card-body">
+              <h5 class="card-title mb-3">Nurse</h5>
+              <span class="badge--green mb-3">$15 Per Hour </span>
+              <p class="shift-dateTime">March 10, 2024 10:00 Am - 2:00 PM</p>
+            </div>
+            <div class="card-footer">
+              <div class="company">
+                <span class="company-logo"></span>
+                <div class="company-info">
+                  <p class="company-name">Company Name</p>
+                  <div class="company-location">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-geo-alt"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                      />
+                      <path
+                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      />
+                    </svg>
+                    <span class="company-location">Ontario, Canada</span>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-fluid bg-gray">
+      <section class="container section section-how-works mt-5">
+        <header class="text-center">
+          <h2 class="section-title">How It Work</h2>
+        </header>
+        <div class="grid grid--4-cols steps-wrapper">
+          <div class="card bg-transparent">
+            <div class="card-body text-center">
+              <div class="icon-container icon-container--white mb-4">
+                <img src="assets/images/avatar-svg.svg" />
+              </div>
+              <p class="step">Create account</p>
+              <p class="step-desc">
+                Aliquam facilisis egestas sapien, nec tempor leo tristique at.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="icon-container bg-primary mb-4">
+                <img src="assets/images/cloud-arrow-up-duotone.svg" />
+              </div>
+              <p class="step">Add Skills</p>
+              <p class="step-desc">
+                Curabitur sit amet maximus ligula. Nam a nulla ante. Nam sodales
+              </p>
+            </div>
+          </div>
+          <div class="card bg-transparent">
+            <div class="card-body text-center">
+              <div class="icon-container icon-container--white mb-4">
+                <img src="assets/images/magnifying-glass-plus-duotone.svg" />
+              </div>
+              <p class="step">Find suitable shifts</p>
+              <p class="step-desc">
+                Phasellus quis eleifend ex. Morbi nec fringilla nibh.
+              </p>
+            </div>
+          </div>
+          <div class="card bg-transparent">
+            <div class="card-body text-center">
+              <div class="icon-container icon-container--white mb-4">
+                <img src="assets/images/circle-wavy-check-duotone.svg" />
+              </div>
+              <p class="step">Apply</p>
+              <p class="step-desc">
+                Curabitur sit amet maximus ligula. Nam a nulla ante, Nam sodales
+                purus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="container section section-categories mt-5">
+      <header class="section--shifts-header">
+        <h2 class="section-title">Popular category</h2>
+        <button class="btn btn--gray-border">View All &rarr;</button>
+      </header>
+      <div class="grid grid--4-cols grid-gap mt-5">
+        <div class="card card-media bg-transparent border-none">
+          <div class="card-body">
+            <div class="icon-container icon-container--white">
+              <img src="assets/images/pen-nib-duotone.svg" />
+            </div>
+            <div class="category-detail">
+              <p class="category-name">Nurse</p>
+              <p class="category-open-position">375 Open position</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-media bg-transparent border-none">
+          <div class="card-body">
+            <div class="icon-container icon-container--white">
+              <img src="assets/images/code-duotone.svg" />
+            </div>
+            <div class="category-detail">
+              <p class="category-name">Pharmacists</p>
+              <p class="category-open-position">310 Open position</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-media bg-transparent border-none">
+          <div class="card-body">
+            <div class="icon-container icon-container--white">
+              <img src="assets/images/megaphone-simple-duotone.svg" />
+            </div>
+            <div class="category-detail">
+              <p class="category-name">Occupational Therapist</p>
+              <p class="category-open-position">375 Open position</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-media bg-transparent border-none">
+          <div class="card-body">
+            <div class="icon-container icon-container--white">
+              <img src="assets/images/monitor-play-duotone.svg" />
+            </div>
+            <div class="category-detail">
+              <p class="category-name">Audiologist</p>
+              <p class="category-open-position">375 Open position</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-media bg-transparent border-none">
+          <div class="card-body">
+            <div class="icon-container icon-container--white">
+              <img src="assets/images/music-notes-duotone.svg" />
+            </div>
+            <div class="category-detail">
+              <p class="category-name">Physician</p>
+              <p class="category-open-position">375 Open position</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-media bg-transparent border-none">
+          <div class="card-body">
+            <div class="icon-container icon-container--white">
+              <img src="assets/images/chart-bar-horizontal-duotone.svg" />
+            </div>
+            <div class="category-detail">
+              <p class="category-name">Dietitian</p>
+              <p class="category-open-position">375 Open position</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-media bg-transparent border-none">
+          <div class="card-body">
+            <div class="icon-container icon-container--white">
+              <img src="assets/images/first-aid-kit-duotone.svg" />
+            </div>
+            <div class="category-detail">
+              <p class="category-name">Health & Care</p>
+              <p class="category-open-position">375 Open position</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-media bg-transparent border-none">
+          <div class="card-body">
+            <div class="icon-container">
+              <img src="assets/images/database-duotone.svg" />
+            </div>
+            <div class="category-detail">
+              <p class="category-name">Machine Operator</p>
+              <p class="category-open-position">375 Open position</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container-fluid bg-gray">
+      <section class="container section section-testimonial">
+        <header class="text-center">
+          <h2 class="section-title">Clients Testimonial</h2>
+        </header>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="star-container">
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                  </div>
+                  <p class="user-comment">
+                    “Ut ullamcorper hendrerit tempor. Aliquam in rutrum dui.
+                    Maecenas ac placerat metus, in faucibus est.”
+                  </p>
+                  <div class="user">
+                    <div class="user-profile">
+                      <img src="assets/images/user-image.png" alt="" />
+                    </div>
+                    <div class="user-detail">
+                      <p class="user-name">Robert Fox</p>
+                      <p class="user-occupation">Dietation</p>
+                    </div>
+                    <img src="assets/images/Quote.svg" alt="" class="quote" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="star-container">
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                  </div>
+                  <p class="user-comment">
+                    “Ut ullamcorper hendrerit tempor. Aliquam in rutrum dui.
+                    Maecenas ac placerat metus, in faucibus est.”
+                  </p>
+                  <div class="user">
+                    <div class="user-profile">
+                      <img src="assets/images/user-image.png" alt="" />
+                    </div>
+                    <div class="user-detail">
+                      <p class="user-name">Robert Fox</p>
+                      <p class="user-occupation">Dietation</p>
+                    </div>
+                    <img src="assets/images/Quote.svg" alt="" class="quote" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="star-container">
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                  </div>
+                  <p class="user-comment">
+                    “Ut ullamcorper hendrerit tempor. Aliquam in rutrum dui.
+                    Maecenas ac placerat metus, in faucibus est.”
+                  </p>
+                  <div class="user">
+                    <div class="user-profile">
+                      <img src="assets/images/user-image.png" alt="" />
+                    </div>
+                    <div class="user-detail">
+                      <p class="user-name">Robert Fox</p>
+                      <p class="user-occupation">Dietation</p>
+                    </div>
+                    <img src="assets/images/Quote.svg" alt="" class="quote" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="star-container">
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                  </div>
+                  <p class="user-comment">
+                    “Ut ullamcorper hendrerit tempor. Aliquam in rutrum dui.
+                    Maecenas ac placerat metus, in faucibus est.”
+                  </p>
+                  <div class="user">
+                    <div class="user-profile">
+                      <img src="assets/images/user-image.png" alt="" />
+                    </div>
+                    <div class="user-detail">
+                      <p class="user-name">Robert Fox</p>
+                      <p class="user-occupation">Dietation</p>
+                    </div>
+                    <img src="assets/images/Quote.svg" alt="" class="quote" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="star-container">
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                  </div>
+                  <p class="user-comment">
+                    “Ut ullamcorper hendrerit tempor. Aliquam in rutrum dui.
+                    Maecenas ac placerat metus, in faucibus est.”
+                  </p>
+                  <div class="user">
+                    <div class="user-profile">
+                      <img src="assets/images/user-image.png" alt="" />
+                    </div>
+                    <div class="user-detail">
+                      <p class="user-name">Robert Fox</p>
+                      <p class="user-occupation">Dietation</p>
+                    </div>
+                    <img src="assets/images/Quote.svg" alt="" class="quote" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="star-container">
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-bright.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                    <img src="assets/images/star-dark.svg" class="star" />
+                  </div>
+                  <p class="user-comment">
+                    “Ut ullamcorper hendrerit tempor. Aliquam in rutrum dui.
+                    Maecenas ac placerat metus, in faucibus est.”
+                  </p>
+                  <div class="user">
+                    <div class="user-profile">
+                      <img src="assets/images/user-image.png" alt="" />
+                    </div>
+                    <div class="user-detail">
+                      <p class="user-name">Robert Fox</p>
+                      <p class="user-occupation">Dietation</p>
+                    </div>
+                    <img src="assets/images/Quote.svg" alt="" class="quote" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add navigation arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+    </div>
+    <section class="container section section-action mt-5">
+      <div class="grid grid--2-cols grid-gap mt-5">
+        <div
+          class="card card-action card-action-businees bg-transparent border-none"
+        >
+          <div class="card-body">
+            <h2 class="action-nature">I`ve Business</h2>
+            <p class="action-nature-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+              asperiores. Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Ipsa, reprehenderit.
+            </p>
+            <button class="btn">Register now &rarr;</button>
+          </div>
+        </div>
+        <div
+          class="card card-action card-action-employee bg-transparent border-none"
+        >
+          <div class="card-body text-white">
+            <h2 class="action-nature">I’m a Worker</h2>
+            <p class="action-nature-description">
+              Cras in massa pellentesque, mollis ligula non, luctus dui. Morbi
+              sed efficitur dolor. Pelque augue risus, aliqu.
+            </p>
+            <button class="btn btn--white btn-register">
+              Register now &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid bg--dark">
+      <section class="container section section--footer">
+        <div class="grid grid--5-cols grid-gap footer-link-list">
+          <div class="footer-profile-col">
+            <img class="mb-4" src="assets/images/Logo-white.png" alt="" />
+            <p class="call-action">
+              Call now: <span class="phone-number">(319) 555-0115</span>
+            </p>
+            <address>
+              6391 Elgin St. Celina, Delaware 10299, New York, United States of
+              America
+            </address>
+          </div>
+          <div class="footer-links-col link-col-1">
+            <h3 class="links-title">Quick Link</h3>
+            <ul class="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col link-col-2">
+            <h3 class="links-title">Candidate</h3>
+            <ul class="list">
+              <li><a href="">Browse Shifts</a></li>
+              <li><a href="">Browse Employers</a></li>
+              <li><a href="">Candidate Dashboard</a></li>
+              <li><a href="">Saved Jobs</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col link-col-3">
+            <h3 class="links-title">Employers</h3>
+            <ul class="list">
+              <li><a href="">Post a Job</a></li>
+              <li><a href="">Browse Candidates</a></li>
+              <li><a href="">Employers Dashboard</a></li>
+              <li><a href="">Applications</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col link-col-4">
+            <h3 class="links-title">Support</h3>
+            <ul class="list">
+              <li><a href="">Support</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="container-fluid section-copyright">
+        <div class="container copyright">
+          @ <span class="currentYear"></span> findwork - Job Portal. All rights
+          Rserved
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

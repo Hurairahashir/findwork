@@ -1,0 +1,71 @@
+.section-primary-purpose {
+  height: 100vh;
+}
+.purpose-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #0d1435;
+}
+.purpose-desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.purpose-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.purpose-content .media-icon {
+  width: 32px;
+}
+.purpose-content .card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card--purpose {
+  text-align: left;
+}
+.card--purpose.active {
+  border: 1px solid var(--primary-color);
+}
+.card--purpose.active::after {
+  content: url(/assets/images/tick.svg);
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-flex;
+  background-color: var(--primary-color);
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.card--purpose .card-body {
+  padding: 2rem;
+}
+.card--purpose .grid--2-cols {
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+  row-gap: 1.1rem;
+}
+.card--purpose .desc {
+  grid-column: 2;
+}
+.card--purpose .title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0e1f40;
+}
+
+.card--purpose .desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.purpose-content .btn {
+  padding-block: 1.2rem;
+}

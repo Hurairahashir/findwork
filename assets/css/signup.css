@@ -1,0 +1,46 @@
+.section-sign-up {
+  height: 100vh;
+  position: relative;
+}
+.content-signup .sub-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #578bf2;
+}
+.content-signup .signup-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #0d1435;
+  margin-bottom: 3rem;
+}
+.section-sign-up .form-label {
+  display: block;
+}
+.section-sign-up .signup-form .flex-gap {
+  gap: 20px;
+}
+.section-sign-up .signup-form {
+  margin-bottom: 1rem;
+}
+.section-sign-up .btn-signup {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.section-sign-up .signup-form .input-container {
+  flex-grow: 1;
+}
+.signup-agrements-text {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.section-sign-up .another-action-box {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 1.8rem;
+  font-weight: 400;
+}

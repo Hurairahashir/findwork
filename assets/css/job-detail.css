@@ -1,0 +1,90 @@
+.job-detail-section .grid-gap {
+  gap: 2rem;
+}
+
+.job-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.job-detail-header .actions {
+  display: flex;
+  gap: 15px;
+}
+.job-detail-header .bookmark-icon-container {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 2rem;
+  background-color: var(--primary-light2);
+}
+.job-detail-header .btn-primary {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.job-detail-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: 5rem;
+  color: #18191c;
+}
+.job-detail-desc {
+  gap: 7rem;
+}
+.job-detail-desc .content .title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #18191c;
+  margin-bottom: 1.5rem;
+}
+.job-detail-desc .content .desc-detail {
+  font-family: "Inter";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.job-detail-desc .content .list-requirement {
+  font-family: "Inter";
+  font-size: 1.6rem;
+  font-weight: 400;
+  gap: 0.7rem;
+}
+.job-detail-desc .deadlines-detail .card-calender {
+  flex-direction: row;
+}
+.job-detail-desc .deadlines-detail .skill-req-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #18191c;
+}
+.job-detail-desc .deadlines-detail .badges-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.job-detail-desc .deadlines-detail .card-calender .location .time {
+  color: #767f8c;
+}
+.job-detail-desc .deadlines-detail .card-calender div {
+  flex-grow: 1;
+  text-align: center;
+  padding: 4rem;
+  position: relative;
+}
+.job-detail-desc .deadlines-detail .card-calender div p {
+  font-family: "Inter";
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.job-detail-desc .deadlines-detail .card-calender div:first-child::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 70%;
+  border: 2px solid #e7f0fa;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
